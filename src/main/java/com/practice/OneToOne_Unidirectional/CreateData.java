@@ -17,11 +17,11 @@ public class CreateData {
 		Transaction transaction = session.beginTransaction();
 
 		Principal p1 = new Principal();
-		p1.setName("Alice");
+		p1.setName("Ali");
 		p1.setPhoneNo("20013467");
 
 		Teacher te = new Teacher();
-		te.setName("Sham");
+		te.setName("Sha");
 		te.setDepartment("Eelctronics");
 		te.setPrincipal(p1);
 
